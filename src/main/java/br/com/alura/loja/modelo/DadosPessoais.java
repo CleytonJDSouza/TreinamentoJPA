@@ -13,6 +13,9 @@ public class DadosPessoais {
         this.cpf = cpf;
     }
 
+    public DadosPessoais () {
+    }
+
     public String getNome() {
         return nome;
     }

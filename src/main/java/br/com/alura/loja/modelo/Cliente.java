@@ -22,6 +22,14 @@ public class Cliente {
         this.dadosPessoais = new DadosPessoais(nome, cpf);
     }
 
+    public String getNome() {
+        return this.dadosPessoais.getNome();
+    }
+
+    public String getCpf() {
+        return this.dadosPessoais.getCpf();
+    }
+
     public Cliente() {
     }
 
